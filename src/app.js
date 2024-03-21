@@ -4,7 +4,6 @@ import { notFound } from './ErorrHandler/NotFound.js';
 
 import express from 'express';
 
-
 const app = express();
 
 app.use(express.urlencoded({extended: false}));
